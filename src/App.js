@@ -3,7 +3,7 @@ function App ()
 {
   return (
     <div className="App">
-      <img style={ { height: "100vh", width: "100%" } } src={ bg } alt="" />
+      {/* <img style={ { height: "100vh", width: "100%" } } src={ bg } alt="" /> */ }
 
     </div>
   );
