@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+/* body{
     background-image: url("./source/air-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-}
+} */
+
+/* @media(max-width:440px){
+    body{
+        background-image: url("./source/second-bg.jpg");
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+} */
