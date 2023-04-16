@@ -28,7 +28,7 @@ function App ()
   return (
     <BrowserRouter>
       {
-        loading ? ( <div className="loader">
+        loading ? ( <div className="facing">
           <div className='sky'>
             <img src={ plane } alt="" />
           </div>
