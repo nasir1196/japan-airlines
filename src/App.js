@@ -13,9 +13,7 @@ import plane from "./source/plane.png";
 
 function App ()
 {
-
   const [ loading, setLoading ] = useState( false );
-
   useEffect( () =>
   {
     setLoading( true );
@@ -47,7 +45,7 @@ function App ()
               </Routes>
             </div>
             <div className='bg-gray-300 p-2'>
-              <p className='text-center'>Copyright&copy; Toshiba-Airlines All Rights Reserved { getYear }</p>
+              <p className='text-center'>Copyright&copy; Toshiba-Airlines&right; All Rights Reserved { getYear }</p>
             </div>
           </>
         )
