@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import plane from "./source/plane.png";
+import Contact from './components/screens/Contact';
 
 
 
@@ -42,6 +43,7 @@ function App ()
                 <Route exact path="/car" element={ <Car /> } />
                 <Route exact path="/vacation" element={ <Vacation /> } />
                 <Route exact path="/package" element={ <Package /> } />
+                <Route exact path="/contact" element={ <Contact /> } />
               </Routes>
             </div>
             <div className='bg-gray-300 p-2'>

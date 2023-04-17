@@ -19,6 +19,7 @@ export default function Navbar ()
         location.pathname === "/car" ? { name: 'Car', to: '/car', current: true } : { name: 'Car', to: '/car', current: false },
         location.pathname === "/vacation" ? { name: 'Vacation', to: '/vacation', current: true } : { name: 'Vacation', to: '/vacation', current: false },
         location.pathname === "/package" ? { name: 'Package', to: '/package', current: true } : { name: 'Package', to: '/package', current: false },
+        location.pathname === "/contact" ? { name: 'Contact', to: '/contact', current: true } : { name: 'Contact', to: '/contact', current: false },
     ];
     return (
         <Disclosure as="nav" className="bg-gray-700">
