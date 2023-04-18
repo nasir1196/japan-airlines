@@ -16,9 +16,9 @@ export default function Navbar ()
     const location = useLocation();
     const navigation = [
         location.pathname === "/flight" ? { name: 'Flight', to: '/flight', current: true } : { name: 'Flight', to: '/flight', current: false },
-        location.pathname === "/car" ? { name: 'Car', to: '/car', current: true } : { name: 'Car', to: '/car', current: false },
         location.pathname === "/vacation" ? { name: 'Vacation', to: '/vacation', current: true } : { name: 'Vacation', to: '/vacation', current: false },
-        location.pathname === "/package" ? { name: 'Package', to: '/package', current: true } : { name: 'Package', to: '/package', current: false },
+        location.pathname === "/about" ? { name: 'About Us', to: '/about', current: true } : { name: 'About Us', to: '/about', current: false },
+        location.pathname === "/notice" ? { name: 'Notice', to: '/notice', current: true } : { name: 'Notice', to: '/notice', current: false },
         location.pathname === "/contact" ? { name: 'Contact', to: '/contact', current: true } : { name: 'Contact', to: '/contact', current: false },
     ];
     return (
@@ -41,7 +41,7 @@ export default function Navbar ()
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="flex flex-shrink-0 items-center">
                                     <Link to="/" className='flex'>
-                                        <h1 style={ { color: "#a97f09" } } className=' font-extrabold text-2xl'>Toshiba Airlines International</h1>
+                                        <h1 style={ { color: "#859DB5" } } className=' font-extrabold laptop:text-2xl sm:text-lg'>Toshiba Airlines International</h1>
                                         {/* <h1 className='text-white'><FaPlaneDeparture /></h1> */ }
                                     </Link>
                                 </div>
@@ -63,10 +63,10 @@ export default function Navbar ()
                                     </div>
                                 </div>
                             </div>
-                            <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                            {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+ow
 
-
-                                {/* Profile dropdown */ }
+                                Profile dropd
                                 <Menu as="div" className="relative ml-3">
                                     <div>
                                         <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
@@ -117,7 +117,7 @@ export default function Navbar ()
                                         </Menu.Items>
                                     </Transition>
                                 </Menu>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -126,15 +126,22 @@ export default function Navbar ()
                             { navigation.map( ( item ) => (
                                 <Disclosure.Button
                                     key={ item.name }
-                                    as="a"
-                                    href={ item.href }
                                     className={ classNames(
                                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                         'block rounded-md px-3 py-2 text-base font-medium'
                                     ) }
-                                    aria-current={ item.current ? 'page' : undefined }
                                 >
-                                    { item.name }
+                                    <Link
+                                        key={ item.name }
+                                        to={ item.to }
+                                        className={ classNames(
+                                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                            'rounded-md px-3 py-2 text-sm font-medium'
+                                        ) }
+                                        aria-current={ item.current ? 'page' : undefined }
+                                    >
+                                        { item.name }
+                                    </Link>
                                 </Disclosure.Button>
                             ) ) }
                         </div>

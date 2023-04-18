@@ -19,7 +19,7 @@ const Home = () =>
                 navbar ? ( <div className="loader"><RingLoader color={ "#FD0155" } loading={ navbar } size={ 150 } /> </div> ) : (
                     <div className='flex justify-center items-center' style={ { vh: "95%" } }>
                         <div style={ { width: "40%", height: "10rem", borderRadius: "7px", color: "#000135" } }>
-                            <h1 className=' font-extrabold text-4xl text-center'> Welcome To Toshiba International Airlines</h1>
+                            <h1 className=' font-extrabold text-4xl text-center'> </h1>
                         </div>
                     </div>
                 )

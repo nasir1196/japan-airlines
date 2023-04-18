@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { RingLoader } from 'react-spinners';
 
-const Package = () =>
+const Notice = () =>
 {
     const [ navbar, setNavbar ] = useState( false );
 
@@ -24,4 +24,4 @@ const Package = () =>
     );
 };
 
-export default Package;
+export default Notice;

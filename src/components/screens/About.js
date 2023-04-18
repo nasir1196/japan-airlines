@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { RingLoader } from 'react-spinners';
 
-const Car = () =>
+const About = () =>
 {
     const [ navbar, setNavbar ] = useState( false );
 
@@ -24,4 +24,4 @@ const Car = () =>
     );
 };
 
-export default Car;
+export default About;
