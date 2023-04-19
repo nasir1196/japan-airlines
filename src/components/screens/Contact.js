@@ -23,6 +23,10 @@ const Contact = () =>
                                 <h1 > <span style={ { color: "#000135" } } >Country Director:</span> Dr. Abdullah </h1>
                                 <h1 > <span style={ { color: "#000135" } }>Email:</span> toshibaairlinesinternational@gmail.com </h1>
                                 <h1> <span style={ { color: "#000135" } }>Mobile:</span> 01916284176 </h1>
+                                <h1> <span style={ { color: "#000135" } }>Address:</span> Avenue-55 Gulshan-2 Dhaka-1216 </h1>
+
+                                <h1> <span style={ { color: "#000135" } }>Our Corporate Office</span> </h1>
+
                             </div>
                         </div>
                     </div>
