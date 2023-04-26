@@ -9,6 +9,7 @@ import plane from "./source/plane.png";
 import Contact from './components/screens/Contact';
 import Notice from './components/screens/Notice';
 import About from './components/screens/About';
+import runway from "./source/video/runway.mp4";
 
 
 
@@ -21,17 +22,27 @@ function App ()
     setTimeout( () =>
     {
       setLoading( false );
-    }, 7500 );
+    }, 18000 );
   }, [] );
   const date = new Date();
   const getYear = date.getFullYear();
+
 
   return (
     <BrowserRouter>
       {
         loading ? ( <div className="facing">
           <div className='sky'>
-            <img src={ plane } alt="" />
+            {/* <img src={ plane } alt="" /> */ }
+            <video autoPlay loop muted
+              style={ {
+                width: "100%",
+                objectFit: "cover",
+                height: "100%"
+              } }
+            >
+              <source src={ runway } type="video/mp4" />
+            </video>
           </div>
         </div> ) : (
           <>
