@@ -17,7 +17,11 @@ const About = () =>
         <>
             {
                 navbar ? ( <div className="loader"><RingLoader color={ "#FD0155" } loading={ navbar } size={ 150 } /> </div> ) : (
-                    <></>
+                    <div style={ { height: "100vh" } }>
+                        <div className="text-center text-3xl">
+                            Hey Dude... About is Moving Foreword Coming Soon...
+                        </div>
+                    </div>
                 )
             }
         </>
