@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { FaAlignRight, FaTimes, FaPlaneDeparture } from "react-icons/fa";
+import { Disclosure } from '@headlessui/react';
+import { FaAlignRight, FaTimes } from "react-icons/fa";
 import { Link, useLocation } from 'react-router-dom';
 
 
@@ -15,6 +15,7 @@ export default function Navbar ()
 {
     const location = useLocation();
     const navigation = [
+        location.pathname === "/" ? { name: 'Home', to: '/', current: true } : { name: 'Home', to: '/', current: false },
         location.pathname === "/flight" ? { name: 'Flight', to: '/flight', current: true } : { name: 'Flight', to: '/flight', current: false },
         location.pathname === "/vacation" ? { name: 'Vacation', to: '/vacation', current: true } : { name: 'Vacation', to: '/vacation', current: false },
         location.pathname === "/about" ? { name: 'About Us', to: '/about', current: true } : { name: 'About Us', to: '/about', current: false },
