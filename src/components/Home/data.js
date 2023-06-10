@@ -1,48 +1,59 @@
-import dhaka from "../../source/airport/Hazrat-Shahjalal-International-Airport.jpg";
-import sylhet from "../../source/airport/Osmani-International-Airport-Sylhet.jpg";
-import Saidpur from "../../source/airport/Saidpur-Airport.jpg";
-import Makhdum from "../../source/airport/Shah-Makhdum-Airport.jpg";
-import barishal from "../../source/airport/barishal.jpg";
-import coxbazar from "../../source/airport/coxbazar.jpg";
-import khulna from "../../source/airport/khulna-airport_feature.jpg";
-import jessore from "../../source/airport/rsz_jessore_airport.jpg";
-import shahamanatairport from "../../source/airport/rsz_shahamanatairport-01.jpg";
+import CharlesdeGaulleAirport from "../../source/airport/Charles-de-Gaulle-Airport.jpg";
+import DubaiInternationalAirport from "../../source/airport/Dubai-International-Airport.jpg";
+import HamadInternationalAirport from "../../source/airport/Hamad-International-Airport.jpg";
+import DallasFortWorthInternationalAirport from "../../source/airport/DallasFort-Worth-International-Airport.jpg";
+import IncheonInternationalAirport from "../../source/airport/Incheon-International-Airport.jpg";
+import Indonosianinternationalairport from "../../source/airport/Indonosian-international-airport.jpg";
+import KLInternationalAirport1 from "../../source/airport/KL-International-Airport1.jpg";
+import MadinatulMunawwara from "../../source/airport/Madinatul-Munawwara.jpg";
+import MakkahAlMukarramah_ from "../../source/airport/Makkah-Al-Mukarramah_.jpg";
+import SingaporeChangiAirport from "../../source/airport/Singapore-Changi-Airport.jpg";
+import TokyoHanedaAirport from "../../source/airport/Tokyo-Haneda-Airport.jpg";
 
 export const imgData = [
     {
-        title: "Hazrat-Shahjalal-International-Airport",
-        pic: dhaka
+        title: "Charles de Gaulle Airport",
+        pic: CharlesdeGaulleAirport
     },
     {
-        title: "Osmani-International-Airport",
-        pic: sylhet
+        title: "Dubai International Airport",
+        pic: DubaiInternationalAirport
     },
     {
-        title: "Saidpur-Airport",
-        pic: Saidpur
+        title: "Hamad International Airport",
+        pic: HamadInternationalAirport
     },
     {
-        title: "Shah-Makhdum-Airport",
-        pic: Makhdum
+        title: "Dallas Fort Worth International Airport",
+        pic: DallasFortWorthInternationalAirport
     },
     {
-        title: "Barishal",
-        pic: barishal
+        title: "Incheon International Airport",
+        pic: IncheonInternationalAirport
     },
     {
-        title: "Cox's Bazar",
-        pic: coxbazar
+        title: "Indonosian international Airport",
+        pic: Indonosianinternationalairport
     },
     {
-        title: "Khulna-Airport",
-        pic: khulna
+        title: "KL International Airport",
+        pic: KLInternationalAirport1
     },
     {
-        title: "Jossore-Airport",
-        pic: jessore
+        title: "Madinatul Munawwara",
+        pic: MadinatulMunawwara
     },
     {
-        title: "Shah-Amanat-Airport",
-        pic: shahamanatairport
+        title: "Makkah Al Mukarramah",
+        pic: MakkahAlMukarramah_
+    },
+
+    {
+        title: "Singapore Changi Airport",
+        pic: SingaporeChangiAirport
+    },
+    {
+        title: "Tokyo Haneda Airport",
+        pic: TokyoHanedaAirport
     },
 ];

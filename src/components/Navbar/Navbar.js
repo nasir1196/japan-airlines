@@ -23,7 +23,7 @@ export default function Navbar ()
         location.pathname === "/contact" ? { name: 'Contact', to: '/contact', current: true } : { name: 'Contact', to: '/contact', current: false },
     ];
     return (
-        <Disclosure as="nav" className="bg-gray-700">
+        <Disclosure as="nav" className="bg-black">
             { ( { open } ) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

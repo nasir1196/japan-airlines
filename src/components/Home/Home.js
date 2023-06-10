@@ -34,7 +34,7 @@ const Home = () =>
                 navbar ? ( <div className="loader"><RingLoader color={ "#FD0155" } loading={ navbar } size={ 150 } /> </div> ) : (
                     <div >
                         <div className='marquee'>
-                            <p>Welcome to Best Airlines. To get the best of your adventure you just need to
+                            <p>Welcome to Toshiba Airlines. To get the best of your adventure you just need to
                                 leave and go where you like. We are waiting for you.</p>
                         </div>
 
@@ -102,10 +102,10 @@ const Home = () =>
                                         <div className="" ></div>
                                         <img src={ best } alt="" />
                                     </div>
-                                    <div className="col-md-6">
-                                        <h2 className='text-center text-orange-700 m-2 text-2xl font-bold'>Toshiba Airlines</h2>
+                                    <div className="col-md-6 mt-20">
+                                        <h2 className='text-center text-orange-700 m-2  text-2xl font-bold'>Toshiba Airlines</h2>
                                         <hr />
-                                        <ul>
+                                        <ul className='text-center align-middle '>
                                             <li>Our Mission is safe flying with Cheap Cost</li>
                                             <li>Our Tradition is quality service providing </li>
                                             <li>We are Following Fully digitalization </li>

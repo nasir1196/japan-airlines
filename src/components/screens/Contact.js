@@ -27,9 +27,16 @@ const Contact = () =>
                                 <div className="col-md-4 ">
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>OUR LOCATION</h2>
-                                        <p>222-Gulshan Avenue, Dhaka-1212, Bangladesh</p>
+                                        <p>55-Avenue-Gulshan-2, Dhaka-#1212, Bangladesh</p>
                                         <p>Monday-Friday 9:00-19:00</p>
+                                    </div> <br />
+                                    <div className="text-center my-2">
+                                        <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Corporate Office</h2>
+                                        <p>House#01,Road#08,Suite#3-A,j-block baridhara,Dhaka#1212</p>
+                                        <p>Phone:81-36-45-46-22</p>
+                                        <p>Fax: 8130-364522</p>
                                     </div>
+                                    <br />
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Head Office</h2>
                                         <p>Mainato City,Tokyo-japan</p>
@@ -37,13 +44,14 @@ const Contact = () =>
                                         <p>Fax: 8130-364522</p>
                                     </div>
 
+
                                 </div>
                                 <div className="col-md-4">
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>MORE INFORMATION</h2>
                                         <p>01759-177 208</p>
-                                        <p>bestairlinesbd@gmail.com</p>
-                                    </div>
+                                        <p>toshibaairlines@gmail.com</p>
+                                    </div> <br />
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Headquarters</h2>
                                         <p>1-1,Shibaura 1-chome,Minato-ku,Tokyo 105-8001,japan</p>
