@@ -34,7 +34,7 @@ function App ()
       {
         loading ? ( <div className="facing">
           <div className='sky'>
-            <video autoPlay loop
+            <video autoPlay loop muted
               style={ {
                 width: "100%",
                 objectFit: "cover",
