@@ -28,14 +28,11 @@ const Contact = () =>
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>OUR LOCATION</h2>
                                         <p>55-Avenue-Gulshan-2, Dhaka-#1212, Bangladesh</p>
+                                        <p>Phone:01916284176 (<small>Dr Abdulah</small>)</p>
+                                        <p>tel: 0248814363</p>
                                         <p>Monday-Friday 9:00-19:00</p>
                                     </div> <br />
-                                    <div className="text-center my-2">
-                                        <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Corporate Office</h2>
-                                        <p>House#01,Road#08,Suite#3-A,j-block baridhara,Dhaka#1212</p>
-                                        <p>Phone:81-36-45-46-22</p>
-                                        <p>Fax: 8130-364522</p>
-                                    </div>
+
                                     <br />
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Head Office</h2>
@@ -50,7 +47,7 @@ const Contact = () =>
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>MORE INFORMATION</h2>
                                         <p>01759-177 208</p>
-                                        <p>toshibaairlines@gmail.com</p>
+                                        <p>toshibaairlinesinternational@gmail.com</p>
                                     </div> <br />
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Headquarters</h2>
