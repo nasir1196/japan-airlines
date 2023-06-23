@@ -14,6 +14,9 @@ import last1 from '../../source/last1.jpeg';
 import last2 from '../../source/last2.jpeg';
 import { Link } from 'react-router-dom';
 import { imgData } from './data';
+import crew1 from "../../source/crew/1.jpg";
+import crew2 from "../../source/crew/2.jpg";
+import crew3 from "../../source/crew/3.jpg";
 
 
 const Home = () =>
@@ -100,7 +103,7 @@ const Home = () =>
                                 <div className="row my-10">
                                     <div className="col-md-6">
                                         <div className="" ></div>
-                                        <img src={ best } alt="" />
+                                        <img src={ crew1 } alt="" />
                                     </div>
                                     <div className="col-md-6 mt-20">
                                         <h2 className='text-center text-orange-700 m-2  text-2xl font-bold'>Toshiba Airlines</h2>
@@ -110,6 +113,54 @@ const Home = () =>
                                             <li>Our Tradition is quality service providing </li>
                                             <li>We are Following Fully digitalization </li>
                                         </ul>
+                                    </div>
+                                </div>
+                                <div className="row my-10">
+
+                                    <div className="col-md-6 mt-20">
+                                        <h2 className='text-center text-orange-700 m-2  text-2xl font-bold'>Toshiba Airlines</h2>
+                                        <hr />
+                                        <ul className='text-center align-middle '>
+                                            <li>Our Mission is safe flying with Cheap Cost</li>
+                                            <li>Our Tradition is quality service providing </li>
+                                            <li>We are Following Fully digitalization </li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="" ></div>
+                                        <img src={ best } alt="" />
+                                    </div>
+                                </div>
+                                <div className="row my-10">
+                                    <div className="col-md-6">
+                                        <div className="" ></div>
+                                        <img src={ crew2 } alt="" />
+                                    </div>
+                                    <div className="col-md-6 mt-20">
+                                        <h2 className='text-center text-orange-700 m-2  text-2xl font-bold'>Toshiba Airlines</h2>
+                                        <hr />
+                                        <ul className='text-center align-middle '>
+                                            <li>Our Mission is safe flying with Cheap Cost</li>
+                                            <li>Our Tradition is quality service providing </li>
+                                            <li>We are Following Fully digitalization </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div className="row my-10">
+
+                                    <div className="col-md-6 mt-20">
+                                        <h2 className='text-center text-orange-700 m-2  text-2xl font-bold'>Toshiba Airlines</h2>
+                                        <hr />
+                                        <ul className='text-center align-middle '>
+                                            <li>Our Mission is safe flying with Cheap Cost</li>
+                                            <li>Our Tradition is quality service providing </li>
+                                            <li>We are Following Fully digitalization </li>
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="" ></div>
+                                        <img src={ crew3 } alt="" />
                                     </div>
                                 </div>
                             </div>
