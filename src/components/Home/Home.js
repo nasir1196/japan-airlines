@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { RingLoader } from 'react-spinners';
-import banner from "../../source/plane-large.png";
+import japan from "../../source/baman_bd1.png";
 import gallery1 from '../../source/gallery/gallery1.jpg';
 import gallery2 from '../../source/gallery/gallery2.jpg';
 import gallery3 from '../../source/gallery/gallery3.jpg';
 import gallery4 from '../../source/gallery/gallery4.jpg';
 import gallery5 from '../../source/gallery/gallery5.jpg';
 import gallery6 from '../../source/gallery/gallery6.jpg';
-import best from '../../source/best.png';
+import best from '../../source/pesenger.png';
 import fluid from '../../source/fluid.jpg';
 import journey from '../../source/journy.PNG';
 import last1 from '../../source/last1.jpeg';
@@ -53,7 +53,7 @@ const Home = () =>
                                         </button>
                                     </div>
                                     <div className="col-md-8 my-16">
-                                        <img src={ banner } alt="Banner Cover" />
+                                        <img src={ japan } alt="Banner Cover" />
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ const Home = () =>
                                             <li>We are Following Fully digitalization </li>
                                         </ul>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 home-banner">
                                         <div className="" ></div>
                                         <img src={ best } alt="" />
                                     </div>
