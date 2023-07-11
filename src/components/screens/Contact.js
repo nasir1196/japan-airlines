@@ -59,11 +59,11 @@ const Contact = () =>
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Social Media</h2>
                                         <div className="d-flex text-center">
-                                            <a style={ { fontSize: "3rem", color: "red", margin: "2px auto" } } href="https://www.youtube.com" target='_blank' rel="noreferrer">
+                                            <a style={ { fontSize: "3rem", color: "red", margin: "2px auto" } } href="https://www.youtube.com/nasir01196" target='_blank' rel="noreferrer">
                                                 <FaYoutube />
                                             </a>
 
-                                            <a style={ { fontSize: "3rem", color: "#1877F2", margin: "2px auto" } } href="https://www.facebook.com" target='_blank' rel="noreferrer">
+                                            <a style={ { fontSize: "3rem", color: "#1877F2", margin: "2px auto" } } href="https://www.facebook.com/nafim96" target='_blank' rel="noreferrer">
                                                 <FaFacebookSquare />
                                             </a>
 
