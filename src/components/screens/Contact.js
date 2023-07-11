@@ -59,7 +59,7 @@ const Contact = () =>
                                     <div className="text-center my-2">
                                         <h2 style={ { fontSize: "1.1rem", fontWeight: "bolder" } }>Social Media</h2>
                                         <div className="d-flex text-center">
-                                            <a style={ { fontSize: "3rem", color: "red", margin: "2px auto" } } href="https://www.youtube.com/nasir01196" target='_blank' rel="noreferrer">
+                                            <a style={ { fontSize: "3rem", color: "red", margin: "2px auto" } } href="https://www.youtube.com/channel/UCmd6uAf2brkxxe16TA9gZzA" target='_blank' rel="noreferrer">
                                                 <FaYoutube />
                                             </a>
 
